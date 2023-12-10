@@ -3,13 +3,14 @@ import { useState } from "react";
 const containerStyle = {
   display: "flex",
   alignItems: "center",
+  justifyContent: "flex-start",
   gap: "16px",
 };
 
 const starContainerStyle = {
   display: "flex",
   //   alignItems: "center",
-  gap: "16px",
+  gap: "7px",
 };
 
 function StarRating({
